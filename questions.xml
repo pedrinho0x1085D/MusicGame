@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<questions>
+	<question>
+		<text>Which singer performs this music?</text>
+		<opt1>Dianne van Giersbergen</opt1>
+		<opt2>Lisa Middelhauve</opt2>
+		<opt3>Manuela Kraller</opt3>
+		<opt4>Marco Hebaum</opt4>
+		<file>00001.mp3</file>
+		<correct>3</correct>
+		<genre>Metal</genre>
+		<score>5</score>
+	</question>
+</questions>
