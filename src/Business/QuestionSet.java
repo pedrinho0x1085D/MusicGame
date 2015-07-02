@@ -15,45 +15,55 @@ import org.w3c.dom.NodeList;
 import org.w3c.dom.Node;
 import org.w3c.dom.Element;
 import java.io.File;
+import java.io.IOException;
+import javax.xml.parsers.ParserConfigurationException;
+import org.xml.sax.SAXException;
+
 /**
  *
  * @author Pedro Cunha
  */
-public class QuestionSet implements Serializable{
+public class QuestionSet implements Serializable {
+
     private HashSet<Question> questions;
 
     public QuestionSet() {
-        this.questions=new HashSet<>();
+        this.questions = new HashSet<>();
     }
-    
-    public void insertQuestion(Question q){
-        this.questions.add(q.clone());
+
+    public void insertQuestion(Question q) {
+        this.questions.add(q);
     }
-    
-    public HashSet<Question> getByGenre(String genre){
-        HashSet<Question> res=new HashSet<>();
-        for(Question q:this.questions)
-            if(q.getGenre().equals(genre)) res.add(q.clone());
+
+    public HashSet<Question> getByGenre(String genre) {
+        HashSet<Question> res = new HashSet<>();
+        for (Question q : this.questions) {
+            if (q.getGenre().equals(genre)) {
+                res.add(q.clone());
+            }
+        }
         return res;
     }
-    
-    public HashSet<Question> getQuestions(){
-        HashSet<Question> res= new HashSet<>();
-        for(Question q:this.questions)
+
+    public HashSet<Question> getQuestions() {
+        HashSet<Question> res = new HashSet<>();
+        for (Question q : this.questions) {
             res.add(q.clone());
+        }
         return res;
     }
-    
-    public TreeSet<String> getGenres(){
-        TreeSet<String> res=new TreeSet<>();
-        for(Question q:this.questions)
+
+    public TreeSet<String> getGenres() {
+        TreeSet<String> res = new TreeSet<>();
+        for (Question q : this.questions) {
             res.add(q.getGenre());
+        }
         return res;
     }
-    
-    public void removeQuestion(Question q){
+
+    public void removeQuestion(Question q) {
         this.questions.remove(q);
     }
-    
-    //Carregar a partir de xml
+
+   
 }

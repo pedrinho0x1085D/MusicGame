@@ -115,14 +115,13 @@ public class TripleStringStringScore {
 
         sb.append("Genre ");
         sb.append(this.string);
-        sb.append("\n");
+        sb.append("; ");
         sb.append("Username ");
         sb.append(this.username);
-        sb.append("\n");
+        sb.append("; ");
         sb.append("Score ");
         sb.append(this.score);
-        sb.append("\n");
-
+        
         return sb.toString();
     }
 

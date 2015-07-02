@@ -38,6 +38,10 @@ public class PairStringInteger {
         this.string = string;
     }
     
+    public String toString(){
+        return new String("Username: "+this.string+"; Score: "+this.integer);
+    }
+    
     public boolean equals(Object ot){
         if(this==ot) return true;
         else if((!(this.getClass().getSimpleName().equals(ot.getClass().getSimpleName())))||ot==null) return false;

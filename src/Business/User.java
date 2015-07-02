@@ -100,19 +100,22 @@ public class User implements Serializable{
         else{
             this.genresQuestions.put(genre, score);
         }
-        this.score+=score;
+        
     }
     
     public TripleStringStringScore getGenreScore(String genre){
-        if(this.genresScore.containsKey(genre)) return new TripleStringStringScore(genre,this.username, this.genresScore.get(genre));
-        else return new TripleStringStringScore(genre,this.username, 0);
-        
+        return new TripleStringStringScore(genre,this.username, this.genresScore.get(genre));
+
     }
     
     public PairStringInteger getGlobalScore(){
         return new PairStringInteger(this.username,this.score);
     }
-    
+    public void incQuestGenre(String genre){
+        int sc=this.genresQuestions.get(genre);
+        sc++;
+        this.genresQuestions.put(genre, sc);
+    }
     public void logIn(){
         this.logged=true;
     }

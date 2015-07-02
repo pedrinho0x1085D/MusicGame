@@ -11,4 +11,103 @@
 		<genre>Metal</genre>
 		<score>5</score>
 	</question>
+	<question>
+		<text>Which album contains this song?</text>
+		<opt1>Salomé - The Seventh Veil</opt1>
+		<opt2>Neverworld's End</opt2>
+		<opt3>Sacrificium</opt3>
+		<opt4>Ravenheart</opt4>
+		<file>00001.mp3</file>
+		<correct>2</correct>
+		<genre>Metal</genre>
+		<score>5</score>
+	</question>
+	<question>
+		<text>Which group performs this song?</text>
+		<opt1>Within Temptation</opt1>
+		<opt2>Nightwish</opt2>
+		<opt3>Epica</opt3>
+		<opt4>Xandria</opt4>
+		<file>00001.mp3</file>
+		<correct>4</correct>
+		<genre>Metal</genre>
+		<score>5</score>
+	</question>
+	<question>
+		<text>Which is the sub-genre of this music?</text>
+		<opt1>Synphonic Metal</opt1>
+		<opt2>Power Metal</opt2>
+		<opt3>Black Metal</opt3>
+		<opt4>Folk Metal</opt4>
+		<file>00001.mp3</file>
+		<correct>1</correct>
+		<genre>Metal</genre>
+		<score>5</score>
+	</question>
+	<question>
+		<text>In which year came out this song?</text>
+		<opt1>2009</opt1>
+		<opt2>2007</opt2>
+		<opt3>2012</opt3>
+		<opt4>2015</opt4>
+		<file>00001.mp3</file>
+		<correct>3</correct>
+		<genre>Metal</genre>
+		<score>5</score>
+	</question>
+	<question>
+		<text>In which country is set this song?</text>
+		<opt1>Scotland</opt1>
+		<opt2>Ireland</opt2>
+		<opt3>England</opt3>
+		<opt4>Wales</opt4>
+		<file>00002.mp3</file>
+		<correct>1</correct>
+		<genre>Metal</genre>
+		<score>5</score>
+	</question>
+	<question>
+		<text>This band was formed as a side project for a lead singer of other band. Which band was it?</text>
+		<opt1>Skillet</opt1>
+		<opt2>Alter Bridge</opt2>
+		<opt3>Powerwolf</opt3>
+		<opt4>Alestorm</opt4>
+		<file>00002.mp3</file>
+		<correct>4</correct>
+		<genre>Metal</genre>
+		<score>5</score>
+	</question>
+	<question>
+		<text>Which band performs this song?</text>
+		<opt1>Alestorm</opt1>
+		<opt2>Gloryhammer</opt2>
+		<opt3>Dragonforce</opt3>
+		<opt4>Powerwolf</opt4>
+		<file>00002.mp3</file>
+		<correct>2</correct>
+		<genre>Metal</genre>
+		<score>5</score>
+	</question>
+	<question>
+		<text>Which is the sub-genre of this music?</text>
+		<opt1>Synphonic Metal</opt1>
+		<opt2>Power Metal</opt2>
+		<opt3>Black Metal</opt3>
+		<opt4>Folk Metal</opt4>
+		<file>00002.mp3</file>
+		<correct>2</correct>
+		<genre>Metal</genre>
+		<score>5</score>
+	</question>
+	<question>
+		<text>Which album contains this song?</text>
+		<opt1>Blessed and Possessed</opt1>
+		<opt2>Sunset on the Golden Age</opt2>
+		<opt3>Back Through Time</opt3>
+		<opt4>Tales from the Kingdom of Fife</opt4>
+		<file>00002.mp3</file>
+		<correct>1</correct>
+		<genre>Metal</genre>
+		<score>5</score>
+	</question>
 </questions>

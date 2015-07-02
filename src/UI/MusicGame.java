@@ -17,10 +17,9 @@ import javazoom.jlgui.basicplayer.BasicPlayerException;
  * @author Pedro Cunha
  */
 public class MusicGame {
-    private static BusinessFacade facade=new BusinessFacade();
     private static BasicPlayer player = new BasicPlayer();
-    private static User user = null;
-    private static Menu menuLogin, mainMenu, menuGenres, menuInGame;
+
+
     
     public static void playSong(String filename) {
         String songName = filename;
@@ -36,23 +35,4 @@ public class MusicGame {
     public static void stopSong() throws BasicPlayerException {
         MusicGame.player.stop();
     }
-    
-    public static void CarregaMenus() {
-        String opLogin[] = {"Login", "Register"};
-        String mainMenuOP[] = {"Start General Game", "Choose a Genre", "Show General Rankings","Choose a genre to show ranknigs"};
-
-
-        MusicGame.menuLogin = new Menu(opLogin);
-        MusicGame.mainMenu = new Menu(mainMenuOP);
-
-    }
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        MusicGame.CarregaMenus();
-        // TODO code application logic here
-        
-    }
-
 }
