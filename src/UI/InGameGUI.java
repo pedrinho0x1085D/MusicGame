@@ -23,34 +23,37 @@ import javazoom.jlgui.basicplayer.BasicPlayerException;
  * @author Pedro Cunha
  */
 public class InGameGUI extends javax.swing.JFrame {
+
     private BusinessFacade facade;
     private String username;
     private List<Question> questions;
-    private int counter=0;
+    private int counter = 0;
     private BasicPlayer player;
-    public InGameGUI(BusinessFacade facade,String username,List<Question> questions) {
+
+    public InGameGUI(BusinessFacade facade, String username, List<Question> questions) {
         initComponents();
         this.buttonGroup1.add(jRadioButton1);
         this.buttonGroup1.add(jRadioButton2);
         this.buttonGroup1.add(jRadioButton3);
         this.buttonGroup1.add(jRadioButton4);
-        this.facade=facade;
-        this.questions=questions;
-        this.username=username;
-        this.player=new BasicPlayer();
+        this.facade = facade;
+        this.questions = questions;
+        this.username = username;
+        this.player = new BasicPlayer();
         loadQuestion();
     }
 
-    public void loadQuestion(){
-        Question q=this.questions.get(counter);
+    public void loadQuestion() {
+        Question q = this.questions.get(counter);
         this.jLabel1.setText(q.getText());
         this.jRadioButton1.setText(q.getOpt1());
         this.jRadioButton2.setText(q.getOpt2());
         this.jRadioButton3.setText(q.getOpt3());
         this.jRadioButton4.setText(q.getOpt4());
-        this.jLabel2.setText("Genre: "+q.getGenre());
+        this.jLabel2.setText("Genre: " + q.getGenre());
         this.playSong(q.getMp3File());
     }
+
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -145,19 +148,24 @@ public class InGameGUI extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         try {
             // TODO add your handling code here:
-            int choice=1;
-            if(this.jRadioButton1.isSelected()) choice=1;
-            else if(this.jRadioButton2.isSelected()) choice=2;
-            else if(this.jRadioButton3.isSelected()) choice=3;
-            else if(this.jRadioButton4.isSelected()) choice=4;
-            this.facade.answerQuestion(username,this.questions.get(counter), choice);
+            int choice = 1;
+            if (this.jRadioButton1.isSelected()) {
+                choice = 1;
+            } else if (this.jRadioButton2.isSelected()) {
+                choice = 2;
+            } else if (this.jRadioButton3.isSelected()) {
+                choice = 3;
+            } else if (this.jRadioButton4.isSelected()) {
+                choice = 4;
+            }
+            this.facade.answerQuestion(username, this.questions.get(counter), choice);
             this.stopSong();
             this.counter++;
-            if(counter==10){
+            if (counter == 10) {
                 this.infoBox("You have reached the end of the Game", "End of Game");
                 this.dispose();
-            }
-            else{
+
+            } else {
                 this.loadQuestion();
             }
         } catch (InvalidRegisterException | BasicPlayerException ex) {
@@ -168,6 +176,7 @@ public class InGameGUI extends javax.swing.JFrame {
     public void infoBox(String infoMessage, String titleBar) {
         JOptionPane.showMessageDialog(null, infoMessage, "InfoBox: " + titleBar, JOptionPane.INFORMATION_MESSAGE);
     }
+
     public void playSong(String filename) {
         String songName = filename;
         String pathToMp3 = System.getProperty("user.dir") + "/music/" + songName;
@@ -175,14 +184,14 @@ public class InGameGUI extends javax.swing.JFrame {
         try {
             this.player.open(new URL("file:///" + pathToMp3));
             this.player.play();
-        } catch (BasicPlayerException|MalformedURLException e) {
+        } catch (BasicPlayerException | MalformedURLException e) {
         }
     }
 
     public void stopSong() throws BasicPlayerException {
         this.player.stop();
     }
-    
+
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
@@ -210,7 +219,7 @@ public class InGameGUI extends javax.swing.JFrame {
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new InGameGUI(new BusinessFacade(), "",new ArrayList<Question>()).setVisible(true);
+                new InGameGUI(new BusinessFacade(), "", new ArrayList<Question>()).setVisible(true);
             }
         });
     }
