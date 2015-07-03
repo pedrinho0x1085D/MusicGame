@@ -286,4 +286,37 @@
 		<genre>Rock</genre>
 		<score>5</score>
 	</question>
+	<question>
+		<text>Which band performs this song?</text>
+		<opt1>Evanescence</opt1>
+		<opt2>Nightwish</opt2>
+		<opt3>Within Temptation</opt3>
+		<opt4>Epica</opt4>
+		<file>00007.mp3</file>
+		<correct>3</correct>
+		<genre>Rock</genre>
+		<score>5</score>
+	</question>
+	<question>
+		<text>Which singer performs this song?</text>
+		<opt1>Tarja Turunen</opt1>
+		<opt2>Sharon den Adel</opt2>
+		<opt3>Simone Simons</opt3>
+		<opt4>Floor Jansen</opt4>
+		<file>00007.mp3</file>
+		<correct>2</correct>
+		<genre>Rock</genre>
+		<score>5</score>
+	</question>
+	<question>
+		<text>Which album features this song?</text>
+		<opt1>The Silent Force</opt1>
+		<opt2>Mother Earth</opt2>
+		<opt3>Hydra</opt3>
+		<opt4>The Unforgiving</opt4>
+		<file>00007.mp3</file>
+		<correct>4</correct>
+		<genre>Rock</genre>
+		<score>5</score>
+	</question>
 </questions>
