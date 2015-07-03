@@ -106,8 +106,184 @@
 		<opt3>Back Through Time</opt3>
 		<opt4>Tales from the Kingdom of Fife</opt4>
 		<file>00002.mp3</file>
+		<correct>4</correct>
+		<genre>Metal</genre>
+		<score>5</score>
+	</question>
+	<question>
+		<text>Which band performs this song?</text>
+		<opt1>Gloryhammer</opt1>
+		<opt2>Moonspell</opt2>
+		<opt3>Powerwolf</opt3>
+		<opt4>Alestorm</opt4>
+		<file>00003.mp3</file>
+		<correct>3</correct>
+		<genre>Metal</genre>
+		<score>5</score>
+	</question>
+	<question>
+		<text>Which album contains this song?</text>
+		<opt1>Blessed and Possessed</opt1>
+		<opt2>Sunset on the Golden Age</opt2>
+		<opt3>Back Through Time</opt3>
+		<opt4>Tales from the Kingdom of Fife</opt4>
+		<file>00003.mp3</file>
 		<correct>1</correct>
 		<genre>Metal</genre>
+		<score>5</score>
+	</question>
+	<question>
+		<text>Which is the origin of the band that performs this song?</text>
+		<opt1>Netherlands</opt1>
+		<opt2>Germany</opt2>
+		<opt3>Austria</opt3>
+		<opt4>Romany</opt4>
+		<file>00003.mp3</file>
+		<correct>2</correct>
+		<genre>Metal</genre>
+		<score>5</score>
+	</question>
+	<question>
+		<text>Who is the lead singer of this song?</text>
+		<opt1>Roel van Helden</opt1>
+		<opt2>Charles Greywolf</opt2>
+		<opt3>Matthew Greywolf</opt3>
+		<opt4>Attila Dorn</opt4>
+		<file>00003.mp3</file>
+		<correct>4</correct>
+		<genre>Metal</genre>
+		<score>5</score>
+	</question>
+	<question>
+		<text>Which of these lyrical themes does this band follow?</text>
+		<opt1>Inner Struggles</opt1>
+		<opt2>Fantasy</opt2>
+		<opt3>Religion</opt3>
+		<opt4>Epic Tales</opt4>
+		<file>00003.mp3</file>
+		<correct>3</correct>
+		<genre>Metal</genre>
+		<score>5</score>
+	</question>
+	<question>
+		<text>Which of these lyrical themes does this band follow?</text>
+		<opt1>Inner Struggles</opt1>
+		<opt2>Fantasy</opt2>
+		<opt3>Religion</opt3>
+		<opt4>Sea Adventures</opt4>
+		<file>00004.mp3</file>
+		<correct>4</correct>
+		<genre>Metal</genre>
+		<score>3</score>
+	</question>
+	<question>
+		<text>The song depicts the biggest defeat for a country's Navy. Which was it?</text>
+		<opt1>United Kingdom</opt1>
+		<opt2>Portugal</opt2>
+		<opt3>Spain</opt3>
+		<opt4>Netherlands</opt4>
+		<file>00004.mp3</file>
+		<correct>1</correct>
+		<genre>Metal</genre>
+		<score>5</score>
+	</question>
+	<question>
+		<text>Which singer performs this music?</text>
+		<opt1>Dianne van Giersbergen</opt1>
+		<opt2>Lisa Middelhauve</opt2>
+		<opt3>Manuela Kraller</opt3>
+		<opt4>Marco Hebaum</opt4>
+		<file>00005.mp3</file>
+		<correct>1</correct>
+		<genre>Metal</genre>
+		<score>5</score>
+	</question>
+	<question>
+		<text>Which album contains this song?</text>
+		<opt1>Salomé - The Seventh Veil</opt1>
+		<opt2>Neverworld's End</opt2>
+		<opt3>Sacrificium</opt3>
+		<opt4>Ravenheart</opt4>
+		<file>00005.mp3</file>
+		<correct>3</correct>
+		<genre>Metal</genre>
+		<score>5</score>
+	</question>
+	<question>
+		<text>Which group performs this song?</text>
+		<opt1>Within Temptation</opt1>
+		<opt2>Nightwish</opt2>
+		<opt3>Epica</opt3>
+		<opt4>Xandria</opt4>
+		<file>00005.mp3</file>
+		<correct>4</correct>
+		<genre>Metal</genre>
+		<score>5</score>
+	</question>
+	<question>
+		<text>Which is the sub-genre of this music?</text>
+		<opt1>Synphonic Metal</opt1>
+		<opt2>Power Metal</opt2>
+		<opt3>Black Metal</opt3>
+		<opt4>Folk Metal</opt4>
+		<file>00005mp3</file>
+		<correct>1</correct>
+		<genre>Metal</genre>
+		<score>5</score>
+	</question>
+	<question>
+		<text>In which year came out this song?</text>
+		<opt1>2009</opt1>
+		<opt2>2014</opt2>
+		<opt3>2012</opt3>
+		<opt4>2015</opt4>
+		<file>00005.mp3</file>
+		<correct>2</correct>
+		<genre>Metal</genre>
+		<score>5</score>
+	</question>
+	<question>
+		<text>In which year came out this song?</text>
+		<opt1>2009</opt1>
+		<opt2>2014</opt2>
+		<opt3>2013</opt3>
+		<opt4>2015</opt4>
+		<file>00006.mp3</file>
+		<correct>3</correct>
+		<genre>Rock</genre>
+		<score>5</score>
+	</question>
+	<question>
+		<text>Which of these albums features this song?</text>
+		<opt1>Rise</opt1>
+		<opt2>Awake</opt2>
+		<opt3>Comatose</opt3>
+		<opt4>Collide</opt4>
+		<file>00006.mp3</file>
+		<correct>1</correct>
+		<genre>Rock</genre>
+		<score>5</score>
+	</question>
+	<question>
+		<text>To which sub-genre belongs this song?</text>
+		<opt1>Alternative Rock</opt1>
+		<opt2>Christian Rock</opt2>
+		<opt3>Hard Rock</opt3>
+		<opt4>Punk Rock</opt4>
+		<file>00006.mp3</file>
+		<correct>2</correct>
+		<genre>Rock</genre>
+		<score>5</score>
+	</question>
+	<question>
+		<text>Which band performs this song?</text>
+		<opt1>Airborne</opt1>
+		<opt2>AC/DC</opt2>
+		<opt3>Van Halen</opt3>
+		<opt4>Skillet</opt4>
+		<file>00006.mp3</file>
+		<correct>4</correct>
+		<genre>Rock</genre>
 		<score>5</score>
 	</question>
 </questions>

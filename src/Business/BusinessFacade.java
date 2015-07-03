@@ -40,7 +40,7 @@ public class BusinessFacade implements Serializable{
     public ArrayList<Question> getQuestionsGenre(String genre){
         ArrayList auxil=new ArrayList<>(this.questions.getByGenre(genre));
         ArrayList auxiliary=new ArrayList<>();
-        for(int i=0;i<10;i++){
+        for(int i=0;i<Math.min(10,auxil.size());i++){
             Random rng=new Random();
             int pos=rng.nextInt(auxil.size());
             while(auxiliary.contains(auxil.get(pos))){
@@ -54,7 +54,7 @@ public class BusinessFacade implements Serializable{
     public ArrayList<Question> getQuestions(){
         ArrayList auxil=new ArrayList<>(this.questions.getQuestions());
         ArrayList auxiliary=new ArrayList<>();
-        for(int i=0;i<10;i++){
+        for(int i=0;i<Math.min(10,auxil.size());i++){
             Random rng=new Random();
             int pos=rng.nextInt(auxil.size());
             while(auxiliary.contains(auxil.get(pos))){

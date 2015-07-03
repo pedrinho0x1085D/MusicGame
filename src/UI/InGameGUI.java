@@ -161,7 +161,7 @@ public class InGameGUI extends javax.swing.JFrame {
             this.facade.answerQuestion(username, this.questions.get(counter), choice);
             this.stopSong();
             this.counter++;
-            if (counter == 10) {
+            if (counter == questions.size()) {
                 this.infoBox("You have reached the end of the Game", "End of Game");
                 this.dispose();
 
