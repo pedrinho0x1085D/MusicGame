@@ -277,7 +277,7 @@
 	</question>
 	<question>
 		<text>Which band performs this song?</text>
-		<opt1>Airborne</opt1>
+		<opt1>Airbourne</opt1>
 		<opt2>AC/DC</opt2>
 		<opt3>Van Halen</opt3>
 		<opt4>Skillet</opt4>
@@ -316,6 +316,72 @@
 		<opt4>The Unforgiving</opt4>
 		<file>00007.mp3</file>
 		<correct>4</correct>
+		<genre>Rock</genre>
+		<score>5</score>
+	</question>
+	<question>
+		<text>Which band performs this song?</text>
+		<opt1>Gloryhammer</opt1>
+		<opt2>AC/DC</opt2>
+		<opt3>Junkie XL</opt3>
+		<opt4>Airbourne</opt4>
+		<file>00008.mp3</file>
+		<correct>4</correct>
+		<genre>Rock</genre>
+		<score>3</score>
+	</question>
+	<question>
+		<text>Which video game features this song?</text>
+		<opt1>Burnout Paradise</opt1>
+		<opt2>Need For Speed: ProStreet</opt2>
+		<opt3>NASCAR 08</opt3>
+		<opt4>Pro Evolution Soccer 2011</opt4>
+		<file>00008.mp3</file>
+		<correct>2</correct>
+		<genre>Rock</genre>
+		<score>3</score>
+	</question>
+	<question>
+		<text>Which is the country of origin of the band performing this song?</text>
+		<opt1>England</opt1>
+		<opt2>United States</opt2>
+		<opt3>Australia</opt3>
+		<opt4>New Zealand</opt4>
+		<file>00008.mp3</file>
+		<correct>3</correct>
+		<genre>Rock</genre>
+		<score>3</score>
+	</question>
+	<question>
+		<text>Who performs this song?</text>
+		<opt1>Slash</opt1>
+		<opt2>Axl Rose</opt2>
+		<opt3>Kid Rock</opt3>
+		<opt4>Mick Jagger</opt4>
+		<file>00009.mp3</file>
+		<correct>1</correct>
+		<genre>Rock</genre>
+		<score>5</score>
+	</question>
+	<question>
+		<text>Myles Kennedy contributes to this song. What kind of contribution was made?</text>
+		<opt1>Drums</opt1>
+		<opt2>Bass</opt2>
+		<opt3>Guitar</opt3>
+		<opt4>Vocal</opt4>
+		<file>00009.mp3</file>
+		<correct>4</correct>
+		<genre>Rock</genre>
+		<score>5</score>
+	</question>
+	<question>
+		<text>Myles Kennedy, who contributed to this song is the lead vocal of which band?</text>
+		<opt1>AC/DC</opt1>
+		<opt2>Skillet</opt2>
+		<opt3>Alter Bridge</opt3>
+		<opt4>Led Zeppelin</opt4>
+		<file>00009.mp3</file>
+		<correct>3</correct>
 		<genre>Rock</genre>
 		<score>5</score>
 	</question>
