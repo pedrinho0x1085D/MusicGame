@@ -226,7 +226,7 @@
 		<opt2>Power Metal</opt2>
 		<opt3>Black Metal</opt3>
 		<opt4>Folk Metal</opt4>
-		<file>00005mp3</file>
+		<file>00005.mp3</file>
 		<correct>1</correct>
 		<genre>Metal</genre>
 		<score>5</score>
@@ -375,7 +375,7 @@
 		<score>5</score>
 	</question>
 	<question>
-		<text>Myles Kennedy, who contributed to this song is the lead vocal of which band?</text>
+		<text>Myles Kennedy, who contributed to this song is a member of which band?</text>
 		<opt1>AC/DC</opt1>
 		<opt2>Skillet</opt2>
 		<opt3>Alter Bridge</opt3>
