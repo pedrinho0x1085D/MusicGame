@@ -385,4 +385,125 @@
 		<genre>Rock</genre>
 		<score>5</score>
 	</question>
+	<question>
+		<text>Who plays this song?</text>
+		<opt1>Pendulum</opt1>
+		<opt2>The Prodigy</opt2>
+		<opt3>Daft Punk</opt3>
+		<opt4>Martin Garrix</opt4>
+		<file>00010.mp3</file>
+		<correct>2</correct>
+		<genre>Electronic</genre>
+		<score>3</score>
+	</question>
+	<question>
+		<text>This song is featured in which of these video games?</text>
+		<opt1>NHL 2009</opt1>
+		<opt2>Pro Evolution Soccer 2010</opt2>
+		<opt3>NBA 2K11</opt3>
+		<opt4>Need For Speed - SHIFT</opt4>
+		<file>00010.mp3</file>
+		<correct>4</correct>
+		<genre>Electronic</genre>
+		<score>3</score>
+	</question>
+	<question>
+		<text>Which album features this song?</text>
+		<opt1>Invaders Must Die</opt1>
+		<opt2>Always Outnumbered, Never Outgunned</opt2>
+		<opt3>The Day is My Enemy</opt3>
+		<opt4>The Fat of the Land</opt4>
+		<file>00010.mp3</file>
+		<correct>1</correct>
+		<genre>Electronic</genre>
+		<score>5</score>
+	</question>
+	<question>
+		<text>In which year came out this song?</text>
+		<opt1>2014</opt1>
+		<opt2>2005</opt2>
+		<opt3>2009</opt3>
+		<opt4>2007</opt4>
+		<file>00010.mp3</file>
+		<correct>3</correct>
+		<genre>Electronic</genre>
+		<score>5</score>
+	</question>
+	<question>
+		<text>Which group plays this song?</text>
+		<opt1>Daft Punk</opt1>
+		<opt2>The Prodigy</opt2>
+		<opt3>Pendulum</opt3>
+		<opt4>Calvin Harris</opt4>
+		<file>00011.mp3</file>
+		<correct>3</correct>
+		<genre>Electronic</genre>
+		<score>5</score>
+	</question>
+	<question>
+		<text>Which album features this song?</text>
+		<opt1>Hold Your Color</opt1>
+		<opt2>In Silico</opt2>
+		<opt3>Human After All</opt3>
+		<opt4>Immersion</opt4>
+		<file>00011.mp3</file>
+		<correct>4</correct>
+		<genre>Electronic</genre>
+		<score>5</score>
+	</question>
+	<question>
+		<text>In which year came out this song?</text>
+		<opt1>2010</opt1>
+		<opt2>2005</opt2>
+		<opt3>2009</opt3>
+		<opt4>2006</opt4>
+		<file>00011.mp3</file>
+		<correct>1</correct>
+		<genre>Electronic</genre>
+		<score>5</score>
+	</question>
+	<question>
+		<text>Which artist plays this song?</text>
+		<opt1>Daft Punk</opt1>
+		<opt2>The Prodigy</opt2>
+		<opt3>Pendulum</opt3>
+		<opt4>Calvin Harris</opt4>
+		<file>00012.mp3</file>
+		<correct>4</correct>
+		<genre>Electronic</genre>
+		<score>5</score>
+	</question>
+	<question>
+		<text>Which album features this song?</text>
+		<opt1>18 Months</opt1>
+		<opt2>Motion</opt2>
+		<opt3>Ready for the Weekend</opt3>
+		<opt4>I Created Disco</opt4>
+		<file>00012.mp3</file>
+		<correct>1</correct>
+		<genre>Electronic</genre>
+		<score>5</score>
+	</question>
+	<question>
+		<text>In which year came out this song?</text>
+		<opt1>2010</opt1>
+		<opt2>2012</opt2>
+		<opt3>2009</opt3>
+		<opt4>2006</opt4>
+		<file>00012.mp3</file>
+		<correct>2</correct>
+		<genre>Electronic</genre>
+		<score>5</score>
+	</question>
+	<question>
+		<text>Which video game features this song?</text>
+		<opt1>Real Racing 2</opt1>
+		<opt2>Asphalt 7: Heat</opt2>
+		<opt3>Need For Speed: Most Wanted</opt3>
+		<opt4>Fifa Street</opt4>
+		<file>00012.mp3</file>
+		<correct>3</correct>
+		<genre>Electronic</genre>
+		<score>5</score>
+	</question>
 </questions>
