@@ -25,7 +25,7 @@ The element score has the following restrictions:
 * 3 for Medium
 * 1 for Easy
 
-Currently there are 9 songs, you can find them in the integrity here: [Music Folder](https://drive.google.com/folderview?id=0B7jXRoARU1FzfjJPMXJZQjhHQTM4dmNDZnAtOUVjV3dRRG5ZVlEzYnRDSjBIVVQ0RFVGSTg&usp=sharing "Music Game Data"). Additionaly feel free to add [here](https://drive.google.com/folderview?id=0B7jXRoARU1FzflhTVUc4VzV1c0lqTjJDTFk3M3Z2VzJjUjd4MHhqQVdXdjJBXzVZWWxBa2c&usp=sharing "Music Game Data") new musics and questions, there's a XML there, I'll check regularly to add to the XML kept in the repository.
+Currently there are 12 songs, you can find them in the integrity here: [Music Folder](https://drive.google.com/folderview?id=0B7jXRoARU1FzfjJPMXJZQjhHQTM4dmNDZnAtOUVjV3dRRG5ZVlEzYnRDSjBIVVQ0RFVGSTg&usp=sharing "Music Game Data"). Additionaly feel free to add [here](https://drive.google.com/folderview?id=0B7jXRoARU1FzflhTVUc4VzV1c0lqTjJDTFk3M3Z2VzJjUjd4MHhqQVdXdjJBXzVZWWxBa2c&usp=sharing "Music Game Data") new musics and questions, there's a XML there, I'll check regularly to add to the XML kept in the repository.
 
 The program's state is saved when the user logs out.
 ## Program screenshots:
