@@ -506,4 +506,114 @@
 		<genre>Electronic</genre>
 		<score>5</score>
 	</question>
+	<question>
+		<text>Who performs this song?</text>
+		<opt1>Nightwish</opt1>
+		<opt2>Within Temptation</opt2>
+		<opt3>Epica</opt3>
+		<opt4>Kamelot</opt4>
+		<file>00013.mp3</file>
+		<correct>2</correct>
+		<genre>Rock</genre>
+		<score>5</score>
+	</question>
+	<question>
+		<text>Who contributes to this song?</text>
+		<opt1>Simone Simons</opt1>
+		<opt2>Lisa Middelhauve</opt2>
+		<opt3>Manuela Kraller</opt3>
+		<opt4>Tarja Turunen</opt4>
+		<file>00013.mp3</file>
+		<correct>4</correct>
+		<genre>Rock</genre>
+		<score>5</score>
+	</question>
+	<question>
+		<text>Which was the year of release of this song?</text>
+		<opt1>2013</opt1>
+		<opt2>2008</opt2>
+		<opt3>2005</opt3>
+		<opt4>2010</opt4>
+		<file>00013.mp3</file>
+		<correct>3</correct>
+		<genre>Rock</genre>
+		<score>5</score>
+	</question>
+	<question>
+		<text>Which album featured this song?</text>
+		<opt1>Hydra</opt1>
+		<opt2>The Unforgiving</opt2>
+		<opt3>Mother Earth</opt3>
+		<opt4>The Silent Force</opt4>
+		<file>00013.mp3</file>
+		<correct>1</correct>
+		<genre>Rock</genre>
+		<score>5</score>
+	</question>
+		<question>
+		<text>Who performs this song?</text>
+		<opt1>Nightwish</opt1>
+		<opt2>Within Temptation</opt2>
+		<opt3>Delain</opt3>
+		<opt4>Epica</opt4>
+		<file>00014.mp3</file>
+		<correct>3</correct>
+		<genre>Metal</genre>
+		<score>5</score>
+	</question>
+	<question>
+		<text>Who contributes to this song?</text>
+		<opt1>Fernando Ribeiro</opt1>
+		<opt2>Marco Hietala</opt2>
+		<opt3>Martijn Willemsen</opt3>
+		<opt4>Otto van der Oije</opt4>
+		<file>00014.mp3</file>
+		<correct>2</correct>
+		<genre>Metal</genre>
+		<score>5</score>
+	</question>
+	<question>
+		<text>Which was the year of release of this song?</text>
+		<opt1>2014</opt1>
+		<opt2>2008</opt2>
+		<opt3>2005</opt3>
+		<opt4>2010</opt4>
+		<file>00014.mp3</file>
+		<correct>1</correct>
+		<genre>Metal</genre>
+		<score>5</score>
+	</question>
+	<question>
+		<text>Which album featured this song?</text>
+		<opt1>We Are the Others</opt1>
+		<opt2>Lucidity</opt2>
+		<opt3>April Rain</opt3>
+		<opt4>The Human Contradiction</opt4>
+		<file>00014.mp3</file>
+		<correct>4</correct>
+		<genre>Metal</genre>
+		<score>5</score>
+	</question>
+	<question>
+		<text>Who was the lead singer to this song?</text>
+		<opt1>Charlotte Wessels</opt1>
+		<opt2>Rosan van der Aa</opt2>
+		<opt3>Jan Yrlund</opt3>
+		<opt4>Amy Lee</opt4>
+		<file>00014.mp3</file>
+		<correct>1</correct>
+		<genre>Metal</genre>
+		<score>5</score>
+	</question>
+	<question>
+		<text>Which is the origin of the band that performs this song?</text>
+		<opt1>Romania</opt1>
+		<opt2>Germany</opt2>
+		<opt3>Austria</opt3>
+		<opt4>Netherlands</opt4>
+		<file>00014.mp3</file>
+		<correct>4</correct>
+		<genre>Metal</genre>
+		<score>5</score>
+	</question>
 </questions>
