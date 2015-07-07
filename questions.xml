@@ -56,6 +56,17 @@
 		<score>5</score>
 	</question>
 	<question>
+		<text>Name this song:</text>
+		<opt1>A Prophecy of Worlds to Fall</opt1>
+		<opt2>Sail Away</opt2>
+		<opt3>Call of the Wind</opt3>
+		<opt4>Land of Dreams</opt4>
+		<file>00001.mp3</file>
+		<correct>3</correct>
+		<genre>Metal</genre>
+		<score>3</score>
+	</question>
+	<question>
 		<text>In which country is set this song?</text>
 		<opt1>Scotland</opt1>
 		<opt2>Ireland</opt2>
@@ -109,6 +120,17 @@
 		<correct>4</correct>
 		<genre>Metal</genre>
 		<score>5</score>
+	</question>
+	<question>
+		<text>Name this song:</text>
+		<opt1>Amulet of Justice</opt1>
+		<opt2>Hail to Crail</opt2>
+		<opt3>Angus McFife</opt3>
+		<opt4>The Unicorn Invasion of Dundee</opt4>
+		<file>00002.mp3</file>
+		<correct>4</correct>
+		<genre>Metal</genre>
+		<score>1</score>
 	</question>
 	<question>
 		<text>Which band performs this song?</text>
@@ -166,6 +188,17 @@
 		<score>5</score>
 	</question>
 	<question>
+		<text>Name the song:</text>
+		<opt1>Amen and Attack</opt1>
+		<opt2>Army of the Night</opt2>
+		<opt3>Armata Strigoi</opt3>
+		<opt4>Drink</opt4>
+		<file>00003.mp3</file>
+		<correct>2</correct>
+		<genre>Metal</genre>
+		<score>3</score>
+	</question>
+	<question>
 		<text>Which of these lyrical themes does this band follow?</text>
 		<opt1>Inner Struggles</opt1>
 		<opt2>Fantasy</opt2>
@@ -184,6 +217,39 @@
 		<opt4>Netherlands</opt4>
 		<file>00004.mp3</file>
 		<correct>1</correct>
+		<genre>Metal</genre>
+		<score>5</score>
+	</question>
+	<question>
+		<text>Which band performs this song?</text>
+		<opt1>Gloryhammer</opt1>
+		<opt2>Korpiklaani</opt2>
+		<opt3>Alestorm</opt3>
+		<opt4>Running Wild</opt4>
+		<file>00004.mp3</file>
+		<correct>3</correct>
+		<genre>Metal</genre>
+		<score>5</score>
+	</question>
+	<question>
+		<text>Which album features this song?</text>
+		<opt1>Heavy Metal Pirates</opt1>
+		<opt2>Back Through Time</opt2>
+		<opt3>Captain Morgan's Revenge</opt3>
+		<opt4>Sunset on the Golden Age</opt4>
+		<file>00004.mp3</file>
+		<correct>4</correct>
+		<genre>Metal</genre>
+		<score>5</score>
+	</question>
+	<question>
+		<text>Name the song:</text>
+		<opt1>Heavy Metal Pirates</opt1>
+		<opt2>1741</opt2>
+		<opt3>Watch the Plank</opt3>
+		<opt4>Sunset on the Golden Age</opt4>
+		<file>00004.mp3</file>
+		<correct>2</correct>
 		<genre>Metal</genre>
 		<score>5</score>
 	</question>
@@ -243,6 +309,17 @@
 		<score>5</score>
 	</question>
 	<question>
+		<text>Name the song:</text>
+		<opt1>My Last Transmission</opt1>
+		<opt2>Nightfall</opt2>
+		<opt3>Temple of Hate</opt3>
+		<opt4>Stardust</opt4>
+		<file>00005.mp3</file>
+		<correct>4</correct>
+		<genre>Metal</genre>
+		<score>3</score>
+	</question>
+	<question>
 		<text>In which year came out this song?</text>
 		<opt1>2009</opt1>
 		<opt2>2014</opt2>
@@ -284,7 +361,18 @@
 		<file>00006.mp3</file>
 		<correct>4</correct>
 		<genre>Rock</genre>
-		<score>5</score>
+		<score>3</score>
+	</question>
+	<question>
+		<text>Name this song:</text>
+		<opt1>Fight Forever</opt1>
+		<opt2>Stand</opt2>
+		<opt3>Not Gonna Die</opt3>
+		<opt4>Rise</opt4>
+		<file>00006.mp3</file>
+		<correct>3</correct>
+		<genre>Rock</genre>
+		<score>3</score>
 	</question>
 	<question>
 		<text>Which band performs this song?</text>
@@ -320,6 +408,17 @@
 		<score>5</score>
 	</question>
 	<question>
+		<text>Name the song:</text>
+		<opt1>A Demon's Fate</opt1>
+		<opt2>Fire</opt2>
+		<opt3>Shot in the Dark</opt3>
+		<opt4>What About Us</opt4>
+		<file>00007.mp3</file>
+		<correct>3</correct>
+		<genre>Rock</genre>
+		<score>3</score>
+	</question>
+	<question>
 		<text>Which band performs this song?</text>
 		<opt1>Gloryhammer</opt1>
 		<opt2>AC/DC</opt2>
@@ -349,6 +448,17 @@
 		<opt4>New Zealand</opt4>
 		<file>00008.mp3</file>
 		<correct>3</correct>
+		<genre>Rock</genre>
+		<score>3</score>
+	</question>
+	<question>
+		<text>Name the song:</text>
+		<opt1>Stand up for Rock and Roll</opt1>
+		<opt2>Girls in Black</opt2>
+		<opt3>Runnin' Wild</opt3>
+		<opt4>Blackjack</opt4>
+		<file>00008.mp3</file>
+		<correct>4</correct>
 		<genre>Rock</genre>
 		<score>3</score>
 	</question>
@@ -384,6 +494,17 @@
 		<correct>3</correct>
 		<genre>Rock</genre>
 		<score>5</score>
+	</question>
+	<question>
+		<text>Name the song:</text>
+		<opt1>World on Fire</opt1>
+		<opt2>Shadow Life</opt2>
+		<opt3>Shadow in the Dark</opt3>
+		<opt4>Battleground</opt4>
+		<file>00009.mp3</file>
+		<correct>2</correct>
+		<genre>Rock</genre>
+		<score>3</score>
 	</question>
 	<question>
 		<text>Who plays this song?</text>
@@ -430,6 +551,17 @@
 		<score>5</score>
 	</question>
 	<question>
+		<text>Name this song:</text>
+		<opt1>Run With the Wolves</opt1>
+		<opt2>Omen</opt2>
+		<opt3>Invaders Must Die</opt3>
+		<opt4>Shout it out Loud</opt4>
+		<file>00010.mp3</file>
+		<correct>1</correct>
+		<genre>Electronic</genre>
+		<score>3</score>
+	</question>
+	<question>
 		<text>Which group plays this song?</text>
 		<opt1>Daft Punk</opt1>
 		<opt2>The Prodigy</opt2>
@@ -459,6 +591,17 @@
 		<opt4>2006</opt4>
 		<file>00011.mp3</file>
 		<correct>1</correct>
+		<genre>Electronic</genre>
+		<score>5</score>
+	</question>
+	<question>
+		<text>Name the song:</text>
+		<opt1>Propane Nightmares</opt1>
+		<opt2>Witchcraft</opt2>
+		<opt3>Color Fadeout</opt3>
+		<opt4>Fasten your Seatbelts</opt4>
+		<file>00011.mp3</file>
+		<correct>2</correct>
 		<genre>Electronic</genre>
 		<score>5</score>
 	</question>
@@ -507,6 +650,17 @@
 		<score>5</score>
 	</question>
 	<question>
+		<text>Name the song:</text>
+		<opt1>Standing in the Light</opt1>
+		<opt2>Animals</opt2>
+		<opt3>Summer</opt3>
+		<opt4>We'll be Coming Back</opt4>
+		<file>00012.mp3</file>
+		<correct>4</correct>
+		<genre>Electronic</genre>
+		<score>1</score>
+	</question>
+	<question>
 		<text>Who performs this song?</text>
 		<opt1>Nightwish</opt1>
 		<opt2>Within Temptation</opt2>
@@ -550,7 +704,18 @@
 		<genre>Rock</genre>
 		<score>5</score>
 	</question>
-		<question>
+	<question>
+		<text>Name the song:</text>
+		<opt1>Enough</opt1>
+		<opt2>Hydra</opt2>
+		<opt3>Paradise</opt3>
+		<opt4>A Demon's Fate</opt4>
+		<file>00013.mp3</file>
+		<correct>3</correct>
+		<genre>Rock</genre>
+		<score>3</score>
+	</question>
+	<question>
 		<text>Who performs this song?</text>
 		<opt1>Nightwish</opt1>
 		<opt2>Within Temptation</opt2>
@@ -615,5 +780,16 @@
 		<correct>4</correct>
 		<genre>Metal</genre>
 		<score>5</score>
+	</question>
+	<question>
+		<text>Name this song:</text>
+		<opt1>Stardust</opt1>
+		<opt2>We Are the Others</opt2>
+		<opt3>29 Years</opt3>
+		<opt4>Sing to me</opt4>
+		<file>00014.mp3</file>
+		<correct>4</correct>
+		<genre>Metal</genre>
+		<score>1</score>
 	</question>
 </questions>
