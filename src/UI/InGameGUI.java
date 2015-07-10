@@ -145,31 +145,35 @@ public class InGameGUI extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        try {
-            // TODO add your handling code here:
-            int choice = 1;
-            if (this.jRadioButton1.isSelected()) {
-                choice = 1;
-            } else if (this.jRadioButton2.isSelected()) {
-                choice = 2;
-            } else if (this.jRadioButton3.isSelected()) {
-                choice = 3;
-            } else if (this.jRadioButton4.isSelected()) {
-                choice = 4;
-            }
-            this.facade.answerQuestion(username, this.questions.get(counter), choice);
-            this.stopSong();
-            this.counter++;
-            if (counter == questions.size()) {
-                this.infoBox("You have reached the end of the Game", "End of Game");
-                this.dispose();
 
-            } else {
-                this.loadQuestion();
-            }
-        } catch (InvalidRegisterException | BasicPlayerException ex) {
-            Logger.getLogger(InGameGUI.class.getName()).log(Level.SEVERE, null, ex);
+        // TODO add your handling code here:
+        int choice = 1;
+        if (this.jRadioButton1.isSelected()) {
+            choice = 1;
+        } else if (this.jRadioButton2.isSelected()) {
+            choice = 2;
+        } else if (this.jRadioButton3.isSelected()) {
+            choice = 3;
+        } else if (this.jRadioButton4.isSelected()) {
+            choice = 4;
         }
+        try {
+            this.facade.answerQuestion(username, this.questions.get(counter), choice);
+        } catch (InvalidRegisterException ire) {
+        }
+        try {
+            this.stopSong();
+        } catch (BasicPlayerException bpe) {
+        }
+        this.counter++;
+        if (counter == questions.size()) {
+            this.infoBox("You have reached the end of the Game", "End of Game");
+            this.dispose();
+
+        } else {
+            this.loadQuestion();
+        }
+
     }//GEN-LAST:event_jButton1ActionPerformed
 
     public void infoBox(String infoMessage, String titleBar) {
