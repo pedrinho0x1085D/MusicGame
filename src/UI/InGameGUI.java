@@ -165,6 +165,11 @@ public class InGameGUI extends javax.swing.JFrame {
             this.stopSong();
         } catch (BasicPlayerException bpe) {
         }
+        if (questions.get(counter).isCorrect(choice)) {
+            this.playSong("correct.mp3");
+        } else {
+            this.playSong("incorrect.mp3");
+        }
         this.counter++;
         if (counter == questions.size()) {
             this.infoBox("You have reached the end of the Game", "End of Game");
