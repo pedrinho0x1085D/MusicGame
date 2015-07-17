@@ -792,4 +792,136 @@
 		<genre>Metal</genre>
 		<score>1</score>
 	</question>
+	<question>
+		<text>Name this song:</text>
+		<opt1>Love Me Like you Do</opt1>
+		<opt2>Heart on Fire</opt2>
+		<opt3>Burn</opt3>
+		<opt4>Blame it</opt4>
+		<file>00015.mp3</file>
+		<correct>1</correct>
+		<genre>Pop</genre>
+		<score>1</score>
+	</question>
+	<question>
+		<text>Which artist performs this song?</text>
+		<opt1>Taylor Swift</opt1>
+		<opt2>Ellie Goulding</opt2>
+		<opt3>Rita Ora</opt3>
+		<opt4>Meghan Trainor</opt4>
+		<file>00015.mp3</file>
+		<correct>2</correct>
+		<genre>Pop</genre>
+		<score>1</score>
+	</question>
+	<question>
+		<text>Which was the year of release of this song?</text>
+		<opt1>2010</opt1>
+		<opt2>2012</opt2>
+		<opt3>2015</opt3>
+		<opt4>2007</opt4>
+		<file>00015.mp3</file>
+		<correct>3</correct>
+		<genre>Pop</genre>
+		<score>1</score>
+	</question>
+	<question>
+		<text>This song was featured on a movie's soundtrack. Which movie was it?</text>
+		<opt1>50 Shades of Grey</opt1>
+		<opt2>Blue is the Warmest Color</opt2>
+		<opt3>The Boy Next Door</opt3>
+		<opt4>The Longest Ride</opt4>
+		<file>00015.mp3</file>
+		<correct>1</correct>
+		<genre>Pop</genre>
+		<score>1</score>
+	</question>
+	<question>
+		<text>Name the song:</text>
+		<opt1>Stay With Me</opt1>
+		<opt2>Crazy</opt2>
+		<opt3>I'm Not The Only One</opt3>
+		<opt4>You Say</opt4>
+		<file>00016.mp3</file>
+		<correct>3</correct>
+		<genre>Pop</genre>
+		<score>1</score>
+	</question>
+	<question>
+		<text>Which artist performs this song?</text>
+		<opt1>Ed Sheeran</opt1>
+		<opt2>John Legend</opt2>
+		<opt3>Charlie Puth</opt3>
+		<opt4>Sam Smith</opt4>
+		<file>00016.mp3</file>
+		<correct>4</correct>
+		<genre>Pop</genre>
+		<score>1</score>
+	</question>
+	<question>
+		<text>Which album features this song?</text>
+		<opt1>Bad Day All Week</opt1>
+		<opt2>The Lost Tapes</opt2>
+		<opt3>Nirvana</opt3>
+		<opt4>In The Lonely Hour</opt4>
+		<file>00016.mp3</file>
+		<correct>4</correct>
+		<genre>Pop</genre>
+		<score>3</score>
+	</question>
+	<question>
+		<text>Which was the year of release of this song?</text>
+		<opt1>2012</opt1>
+		<opt2>2010</opt2>
+		<opt3>2014</opt3>
+		<opt4>2006</opt4>
+		<file>00016.mp3</file>
+		<correct>3</correct>
+		<genre>Pop</genre>
+		<score>1</score>
+	</question>
+	<question>
+		<text>Name the Song:</text>
+		<opt1>Blank Space</opt1>
+		<opt2>Bad Blood</opt2>
+		<opt3>I Knew you were Trouble</opt3>
+		<opt4>Forever</opt4>
+		<file>00017.mp3</file>
+		<correct>1</correct>
+		<genre>Pop</genre>
+		<score>1</score>
+	</question>
+	<question>
+		<text>Which artist performed this song?</text>
+		<opt1>Rita Ora</opt1>
+		<opt2>Selena Gomez</opt2>
+		<opt3>Ariana Grande</opt3>
+		<opt4>Taylor Swift</opt4>
+		<file>00017.mp3</file>
+		<correct>4</correct>
+		<genre>Pop</genre>
+		<score>1</score>
+	</question>
+	<question>
+		<text>Which was the year of release of this song?</text>
+		<opt1>2010</opt1>
+		<opt2>2008</opt2>
+		<opt3>2014</opt3>
+		<opt4>2010</opt4>
+		<file>00017.mp3</file>
+		<correct>3</correct>
+		<genre>Pop</genre>
+		<score>1</score>
+	</question>
+	<question>
+		<text>Which album features this song?</text>
+		<opt1>1989</opt1>
+		<opt2>Speak Now</opt2>
+		<opt3>Red</opt3>
+		<opt4>Taylor Swift</opt4>
+		<file>00017.mp3</file>
+		<correct>1</correct>
+		<genre>Pop</genre>
+		<score>1</score>
+	</question>
 </questions>
