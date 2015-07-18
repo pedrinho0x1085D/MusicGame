@@ -924,4 +924,191 @@
 		<genre>Pop</genre>
 		<score>1</score>
 	</question>
+	<question>
+		<text>Name the song:</text>
+		<opt1>Prayin'</opt1>
+		<opt2>Sugar</opt2>
+		<opt3>Maps</opt3>
+		<opt4>Animals</opt4>
+		<file>00018.mp3</file>
+		<correct>4</correct>
+		<genre>Pop</genre>
+		<score>1</score>
+	</question>
+	<question>
+		<text>Which of these bands performs this song?</text>
+		<opt1>Maroon 5</opt1>
+		<opt2>OneRepublic</opt2>
+		<opt3>Imagine Dragons</opt3>
+		<opt4>Coldplay</opt4>
+		<file>00018.mp3</file>
+		<correct>1</correct>
+		<genre>Pop</genre>
+		<score>1</score>
+	</question>
+	<question>
+		<text>Which album features this song?</text>
+		<opt1>Songs About Jane</opt1>
+		<opt2>Hands All Over</opt2>
+		<opt3>V</opt3>
+		<opt4>Overexposed</opt4>
+		<file>00018.mp3</file>
+		<correct>3</correct>
+		<genre>Pop</genre>
+		<score>1</score>
+	</question>
+	<question>
+		<text>In which year was this song released?</text>
+		<opt1>2014</opt1>
+		<opt2>2012</opt2>
+		<opt3>2002</opt3>
+		<opt4>2010</opt4>
+		<file>00018.mp3</file>
+		<correct>1</correct>
+		<genre>Pop</genre>
+		<score>1</score>
+	</question>
+	<question>
+		<text>Name the song:</text>
+		<opt1>Man on a Wire</opt1>
+		<opt2>Hall of Fame</opt2>
+		<opt3>Nothing</opt3>
+		<opt4>Superheroes</opt4>
+		<file>00019.mp3</file>
+		<correct>4</correct>
+		<genre>Pop</genre>
+		<score>1</score>
+	</question>
+	<question>
+		<text>Which band performs this song?</text>
+		<opt1>OneRepublic</opt1>
+		<opt2>The Script</opt2>
+		<opt3>The Fray</opt3>
+		<opt4>Maroon 5</opt4>
+		<file>00019.mp3</file>
+		<correct>2</correct>
+		<genre>Pop</genre>
+		<score>1</score>
+	</question>
+	<question>
+		<text>Which album features this song?</text>
+		<opt1>Science and Faith</opt1>
+		<opt2>#3</opt2>
+		<opt3>Native</opt3>
+		<opt4>No Sound Without Silence</opt4>
+		<file>00019.mp3</file>
+		<correct>4</correct>
+		<genre>Pop</genre>
+		<score>1</score>
+	</question>
+	<question>
+		<text>In which year was this song released?</text>
+		<opt1>2014</opt1>
+		<opt2>2012</opt2>
+		<opt3>2008</opt3>
+		<opt4>2010</opt4>
+		<file>00019.mp3</file>
+		<correct>1</correct>
+		<genre>Pop</genre>
+		<score>1</score>
+	</question>
+	<question>
+		<text>Name the song:</text>
+		<opt1>Get Down</opt1>
+		<opt2>Recovery</opt2>
+		<opt3>Certain Things</opt3>
+		<opt4>Impossible</opt4>
+		<file>00020.mp3</file>
+		<correct>4</correct>
+		<genre>Pop</genre>
+		<score>1</score>
+	</question>
+	<question>
+		<text>Which artist has performed this song?</text>
+		<opt1>Sam Smith</opt1>
+		<opt2>Matt Cardle</opt2>
+		<opt3>John Newman</opt3>
+		<opt4>James Arthur</opt4>
+		<file>00020.mp3</file>
+		<correct>4</correct>
+		<genre>Pop</genre>
+		<score>1</score>
+	</question>
+	<question>
+		<text>Which album features this song?</text>
+		<opt1>Impossible</opt1>
+		<opt2>X</opt2>
+		<opt3>James Arthur</opt3>
+		<opt4>Save Arcade</opt4>
+		<file>00020.mp3</file>
+		<correct>3</correct>
+		<genre>Pop</genre>
+		<score>1</score>
+	</question>
+	<question>
+		<text>In which year was this song released</text>
+		<opt1>2013</opt1>
+		<opt2>2009</opt2>
+		<opt3>2006</opt3>
+		<opt4>2011</opt4>
+		<file>00020.mp3</file>
+		<correct>1</correct>
+		<genre>Pop</genre>
+		<score>1</score>
+	</question>
+	<question>
+		<text>Name the song:</text>
+		<opt1>Good Girls</opt1>
+		<opt2>Switch</opt2>
+		<opt3>When I Get You Alone</opt3>
+		<opt4>Blurred Lines</opt4>
+		<file>00021.mp3</file>
+		<correct>4</correct>
+		<genre>Pop</genre>
+		<score>1</score>
+	</question>
+	<question>
+		<text>Which artist performs this song?</text>
+		<opt1>Marvin Gaye</opt1>
+		<opt2>Robin Thicke</opt2>
+		<opt3>Justin Timberlake</opt3>
+		<opt4>Bruno Mars</opt4>
+		<file>00021.mp3</file>
+		<correct>2</correct>
+		<genre>Pop</genre>
+		<score>1</score>
+	</question>
+	<question>
+		<text>Which album features this song?</text>
+		<opt1>Blurred Lines</opt1>
+		<opt2>A Beautiful World</opt2>
+		<opt3>Paula</opt3>
+		<opt4>Evolution</opt4>
+		<file>00021.mp3</file>
+		<correct>1</correct>
+		<genre>Pop</genre>
+		<score>1</score>
+	</question>
+	<question>
+		<text>In which year was released this song?</text>
+		<opt1>2002</opt1>
+		<opt2>2009</opt2>
+		<opt3>2013</opt3>
+		<opt4>2015</opt4>
+		<file>00021.mp3</file>
+		<correct>3</correct>
+		<genre>Pop</genre>
+		<score>1</score>
+	</question>
+	<question>
+		<text>Weird Al Yankovic has parodied this song. Which was the name of the parody?</text>
+		<opt1>Blurred Bynes</opt1>
+		<opt2>Defined Lines</opt2>
+		<opt3>Obama Been Watching</opt3>
+		<opt4>Word Crimes</opt4>
+		<file>00021.mp3</file>
+		<correct>4</correct>
+		<genre>Pop</genre>
+		<score>1</score>
+	</question>
 </questions>
