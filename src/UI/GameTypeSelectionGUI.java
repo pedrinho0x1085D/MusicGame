@@ -7,6 +7,7 @@ package UI;
 
 import Business.BusinessFacade;
 import javax.swing.DefaultListModel;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -170,11 +171,13 @@ public class GameTypeSelectionGUI extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
-        if(this.jToggleButton1.isSelected()){
-            new InGameGUI(facade, username, this.facade.getQuestionsGenre((String)jList1.getSelectedValue())).setVisible(true);
-            
-        }
-        else{
+        if (this.jToggleButton1.isSelected()) {
+            if (jList1.getSelectedValue() != null) {
+                new InGameGUI(facade, username, this.facade.getQuestionsGenre((String) jList1.getSelectedValue())).setVisible(true);
+            } else {
+                GameTypeSelectionGUI.infoBox("Please choose a genre to start playing", "No Genre Selected");
+            }
+        } else {
             new InGameGUI(facade, username, this.facade.getQuestions()).setVisible(true);
         }
     }//GEN-LAST:event_jButton1ActionPerformed
@@ -222,6 +225,10 @@ public class GameTypeSelectionGUI extends javax.swing.JFrame {
                 new GameTypeSelectionGUI("", new BusinessFacade()).setVisible(true);
             }
         });
+    }
+
+    public static void infoBox(String infoMessage, String titleBar) {
+        JOptionPane.showMessageDialog(null, infoMessage, "InfoBox: " + titleBar, JOptionPane.INFORMATION_MESSAGE);
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

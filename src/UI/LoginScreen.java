@@ -150,26 +150,32 @@ public class LoginScreen extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
-        if (jToggleButton1.isSelected()) {
-            String username = jTextField1.getText();
-            String password = jPasswordField1.getText();
-            try {
-                this.facade.registerUser(username, password);
-                MainFrameGUI mainframe = new MainFrameGUI(this.facade.getUser(username), this.facade);
-                mainframe.setVisible(true);
-                this.dispose();
-            } catch (InvalidRegisterException ire) { LoginScreen.infoBox("INVALID USERNAME: "+ire.getMessage(), "ERROR");
-            }
+        if ((jTextField1.getText().equals("")) || jPasswordField1.getText().equals("")) {
+            LoginScreen.infoBox("Please fill all fields", "Username and/or Password inexistent");
         } else {
-            String username = jTextField1.getText();
-            String password = jPasswordField1.getText();
-            try {
-                this.facade.logIn(username, password);
-                MainFrameGUI mainframe = new MainFrameGUI(this.facade.getUser(username), this.facade);
-                mainframe.setVisible(true);
-                this.dispose();
-            } catch (InvalidLoginException | InvalidRegisterException ire) {LoginScreen.infoBox("INVALID LOGIN CREDENTIALS: "+ire.getMessage(), "ERROR");
-                    
+            if (jToggleButton1.isSelected()) {
+                String username = jTextField1.getText();
+                String password = jPasswordField1.getText();
+                try {
+                    this.facade.registerUser(username, password);
+                    MainFrameGUI mainframe = new MainFrameGUI(this.facade.getUser(username), this.facade);
+                    mainframe.setVisible(true);
+                    this.dispose();
+                } catch (InvalidRegisterException ire) {
+                    LoginScreen.infoBox("INVALID USERNAME: " + ire.getMessage(), "ERROR");
+                }
+            } else {
+                String username = jTextField1.getText();
+                String password = jPasswordField1.getText();
+                try {
+                    this.facade.logIn(username, password);
+                    MainFrameGUI mainframe = new MainFrameGUI(this.facade.getUser(username), this.facade);
+                    mainframe.setVisible(true);
+                    this.dispose();
+                } catch (InvalidLoginException | InvalidRegisterException ire) {
+                    LoginScreen.infoBox("INVALID LOGIN CREDENTIALS: " + ire.getMessage(), "ERROR");
+
+                }
             }
         }
     }//GEN-LAST:event_jButton1ActionPerformed
